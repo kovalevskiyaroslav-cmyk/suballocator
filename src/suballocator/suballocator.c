@@ -253,10 +253,6 @@ static int expand_pool(suballocator_t* allocator, size_t required_size) {
     return 1;
 }
 
-const char* suballocator_get_version(void) {
-    return "1.0.0";
-}
-
 const char* suballocator_get_error_string(suballocator_error_t error) {
     switch (error) {
         case SUBALLOCATOR_ERROR_NONE: return "No error";

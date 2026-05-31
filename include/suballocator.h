@@ -55,7 +55,6 @@ typedef struct suballocator_config {
 
 typedef struct suballocator suballocator_t;
 
-const char* suballocator_get_version(void);
 const char* suballocator_get_error_string(suballocator_error_t error);
 
 suballocator_config_t suballocator_config_default(void);
