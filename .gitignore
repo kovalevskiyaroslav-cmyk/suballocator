@@ -5,3 +5,4 @@ lib/
 *.o
 *.so
 *.a
+*.txt

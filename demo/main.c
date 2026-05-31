@@ -82,10 +82,10 @@ static void interactive_demo(btree_index_t* index) {
         printf("  Max string: %s\n", buffer);
     }
     
-    printf("\nStep 5: Deleting 'date'...\n");
-    btree_index_delete(index, "date");
-    printf("  Search 'date' after deletion: %s\n", 
-           btree_index_search(index, "date") ? "Still exists" : "Deleted");
+    printf("\nStep 5: Deleting 'apple'...\n");
+    btree_index_delete(index, "apple");
+    printf("  Search 'apple' after deletion: %s\n", 
+           btree_index_search(index, "apple") ? "Still exists" : "Deleted");
     
     printf("\nStep 6: Printing tree structure...\n");
     btree_index_print_structure(index);
